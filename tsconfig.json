@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2015",
+    "allowJs": false,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "alwaysStrict": true,
+    "jsx": "react",
+    "declaration": true,
+    "esModuleInterop": true,
+    "types": [ "node" ],
+    "emitDeclarationOnly": true,
+    "declarationDir": "dist/es"
+  },
+  "exclude": ["stories/**/*"]
+}
