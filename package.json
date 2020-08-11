@@ -10,7 +10,7 @@
   "scripts": {
     "lint": "eslint \"src/**/*.ts\" && tsc --noEmit",
     "storybook": "start-storybook -p 6006",
-    "build": "rimraf dist && rollup -c && tsc",
+    "build": "rimraf dist && rollup -c && tsc --noEmit false --emitDeclarationOnly",
     "prepublishOnly": "yarn build"
   },
   "devDependencies": {
